@@ -1,0 +1,24 @@
+:root {
+  --white: #ffffff;
+  --primary: #5dabf4;
+  --secondary: #4775a0;
+  --dark: #434343;
+  --cooper: #be7434;
+  --silver: #bbbbbb;
+}
+
+/* main {
+  background-color: var(--dark);
+}
+
+main h1, h2, h3, p {
+  color: var(--white)
+}
+
+main a {
+  color: var(--primary)
+}
+
+main > .container {
+  padding: 60px 15px 0;
+} */

@@ -1,0 +1,63 @@
+baseURL: https://josemontoya.io/
+languageCode: en-us
+title: josemontoya.io
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: English
+    weight: 10
+    contentDir: content/en
+  es:
+    languageName: Espanol
+    weight: 20
+    contentDir: content/es
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+
+# menu:
+#   main:
+#   - identifier: blog
+#     name: Blog
+#     title: Blog
+#     url: /blog/
+#     weight: 1
+#   - identifier: services
+#     name: Services
+#     title: Services
+#     url: /services/
+#     weight: 2
+#   - identifier: about
+#     name: About
+#     title: About
+#     url: /services/
+#     weight: 3
+
+# menu:
+#   main:
+#     - identifier: services
+#       name: Services
+#       title: Services
+#       url: /services
+#       weight: 1
+#
+#     - identifier: blog
+#       name: Blog
+#       title: Blog
+#       url: /blog
+#       weight: 2
+#
+#     - identifier: about
+#       name: About
+#       title: About
+#       url: /about
+#       weight: 3
+
+params:
+  since: 2017
+  dateFormatToUse: "2006-01-02"
