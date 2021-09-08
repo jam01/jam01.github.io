@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-static-top">
+<nav class="navbar navbar-expand-md navbar-dark navbar-static-top">
   <div class="container">
     <a class="navbar-brand" href="/">josemontoya.io</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -7,7 +7,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
         {{ $curr := . }}
         {{ range .Site.Menus.main }}
         {{ $active := or ($curr.IsMenuCurrent "main" .) ($curr.HasMenuCurrent "main" .) }}
@@ -18,8 +18,8 @@
           </a>
         </li>
         {{ end }}
-        {{- partial "languages.html" . -}}
         </ul>
+        {{- partial "languages.html" . -}}
         <!-- {{ partial "search.html" . }} -->
       </div>
   </div>

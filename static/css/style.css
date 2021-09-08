@@ -1,18 +1,32 @@
 :root {
-  --white: #ffffff;
-  --primary: #5dabf4;
-  --secondary: #4775a0;
-  --dark: #434343;
-  --cooper: #be7434;
-  --silver: #bbbbbb;
+  --light: #EAEAEC;
+  --light-gray: #6C7D80;
+  --dark: #27282B;
+  --dark-gray: #303D40;
+  --primary: #00338e;
+  --secondary: #1964d4;
+  --accent: var(--bs-cyan);
 }
 
-/* main {
+body {
+  background-color: var(--light);
+}
+
+nav {
   background-color: var(--dark);
 }
 
+footer {
+  background-color: var(--dark);
+  color: var(--bs-white);
+}
+
+main {
+  background-color: var(--light);
+}
+
 main h1, h2, h3, p {
-  color: var(--white)
+  color: var(--bs-black)
 }
 
 main a {
@@ -20,5 +34,5 @@ main a {
 }
 
 main > .container {
-  padding: 60px 15px 0;
-} */
+  padding: 45px 15px 0;
+}

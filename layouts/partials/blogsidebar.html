@@ -4,12 +4,12 @@
   {{- $taxonomyCount := default 10 ($.Site.Param $param) -}}
   {{- if $taxonomyCount -}}
     {{- with $value.ByCount -}}
-    <section class="taxonomy-{{ $key }} row m-2">
-      <h4>{{ $key }}</h4>
+    <section class="row m-4">
+      <h4 >{{ $key }}</h4>
       <div>
       {{- range $idx, $taxonomy := . -}}
         {{- if lt $idx $taxonomyCount -}}
-        <a href="{{ $taxonomy.Page.Permalink }}" class="post-taxonomy btn btn-sm me-2 mb-2" title="{{ $taxonomy.Page.Title }}">
+        <a href="{{ $taxonomy.Page.Permalink }}" class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title="{{ $taxonomy.Page.Title }}">
           {{ $taxonomy.Page.Title }} <span class="badge bg-dark">{{ $taxonomy.Count }}</span>
         </a>
         {{- end -}}
