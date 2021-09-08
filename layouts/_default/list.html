@@ -3,12 +3,10 @@
   <div class="row">
     <div class="col-md-9">
       {{ range .Pages.ByPublishDate.Reverse }}
-      <div class="m-3 p-2 border-start border-dark border-5">
+      <div class="m-5 p-2 border-start border-dark border-4">
         <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Summary }}</p>
         {{ partial "metadata.html" . }}
-        <a class="summary" href="{{ .RelPermalink }}">
-            <p>{{ .Summary }}</p>
-        </a>
       </div>
       {{ end }}
     </div>

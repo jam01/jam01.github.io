@@ -2,8 +2,9 @@
 <div class="container">
   <div class="row">
     <div class="col-md-9">
+      <h1>{{ .Title }}</h1>
         {{ partial "metadata.html" . }}
-      <br><br>
+      <br class="mb-3"><br>
       {{ .Content }}
       </div>
       <div class="col-md-3">

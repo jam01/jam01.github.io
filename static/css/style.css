@@ -1,5 +1,6 @@
 :root {
-  --light: #EAEAEC;
+  --light: #FAFAFA;
+  /* --light: #EAEAEC; */
   --light-gray: #6C7D80;
   --dark: #27282B;
   --dark-gray: #303D40;
@@ -34,5 +35,5 @@ main a {
 }
 
 main > .container {
-  padding: 45px 15px 0;
+  padding: 45px 15px 15px;
 }
