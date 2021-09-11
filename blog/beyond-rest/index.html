@@ -28,18 +28,16 @@ Services
 About
 </a>
 </li>
-</ul><div class="dropdown ml-auto mt-n2">
-<button class="btn-nav-lang btn rounded-0 btn-dark border-0 border-start border-end border-light border-2" type=button id=languageDropdown data-bs-toggle=dropdown aria-expanded=false>
+</ul><div class="dropdown ml-auto">
+<button class="btn-nav-lang btn rounded-0 btn-dark bg-dark border-0 border-start border-end border-light border-2" type=button id=languageDropdown data-bs-toggle=dropdown aria-expanded=false>
 en
 </button>
-<ul class=dropdown-menu aria-labelledby=languageDropdown>
-<li><a class=dropdown-item href=https://josemontoya.io/es/>es</a></li>
-</ul>
+<ul class=dropdown-menu aria-labelledby=languageDropdown><li><a class=dropdown-item href=https://josemontoya.io/>en</a></li><li><a class=dropdown-item href=https://josemontoya.io/es/>es</a></li></ul>
 </div>
 </div>
 </div>
 </nav>
-<main class=flex-shrink-0>
+<main class="main flex-shrink-0">
 <div class=container>
 <div class=row>
 <div class=col-md-9>
@@ -82,20 +80,20 @@ en
 <p>But what if you cannot sacrifice network performance for your specific use case? If that’s your priority then you must make different trade-offs. What if you have the perfect solution on paper but in practice the effort required behind one style choice implementation outweighs its benefit to your use case? Then you must make different trade-offs.</p>
 <p>There is no silver bullet in software design, and the subject matter experts on the current popular industry practices warned us:</p>
 <blockquote>
-<p><em>… your team and management will have to determine if a system … deserves the cost of [Domain Driven Design]</em>
+<p><em>… your team and management will have to determine if a system … deserves the cost of [Domain Driven Design]</em><br>
 – Vaughn Vernon, Implementing Domain Driven Design</p>
 </blockquote>
 <blockquote>
-<p><em>Every company, organization, and system is different. A number of factors will play into whether or not microservices are right for you…</em>
+<p><em>Every company, organization, and system is different. A number of factors will play into whether or not microservices are right for you…</em><br>
 – Sam Newman, Building Microservices</p>
 </blockquote>
 <blockquote>
-<p><em>Almost all modern applications can … run successfully … on a serverless platform. However, there are a few times [it] is not the best choice…</em>
+<p><em>Almost all modern applications can … run successfully … on a serverless platform. However, there are a few times [it] is not the best choice…</em><br>
 – Amazon Web Services, Optimizing Enterprise Economics with Serverless Architectures</p>
 </blockquote>
 <p>And most relevant,</p>
 <blockquote>
-<p><em>My dissertation is about Principled Design, not the one true architecture.</em>
+<p><em>My dissertation is about Principled Design, not the one true architecture.</em><br>
 – Dr. Roy Fielding, A little REST and Relaxation</p>
 </blockquote>
 <p>Yet the industry is quick to blindly prescribe REST and it’s because even though the work is admittedly about Principled Design, that’s not a buzzworthy term.</p>
@@ -107,7 +105,7 @@ en
 <p>That’s how we end up with questions like “What’s the point of REST?” halfway through an implementation or with the many debates on “what a RESTful service should look like” when the architecture is purposely constraining. This can be a costly mistake with a considerable amount of time and money spent on an inadequate solution.</p>
 <p>These problems are not particularly special to software development but it is the common risk of making decisions on incomplete information. Yet it seems its effect in our industry is much more pronounced. Ironically, Dr. Fielding acknowledged this problem in his dissertation, yet couldn’t avoid it.</p>
 <blockquote>
-<p><em>… [often] software projects begin with adoption of the latest fad… and only later discover whether… system requirements call for such an architecture. Design-by-buzzword is a common occurrence</em>
+<p><em>… [often] software projects begin with adoption of the latest fad… and only later discover whether… system requirements call for such an architecture. Design-by-buzzword is a common occurrence</em><br>
 –Dr. Roy Fielding, Architectural Styles and the Design of Network-based Software Architectures</p>
 </blockquote>
 <p>The overreliance on buzzwords in software, more than other fields, can be attributed to the fact that ours is one that has been evolving much faster than it can mature. Not only have we not met the demand for qualified professionals, we have yet to formalize a process for classifying and qualifying them. Which is why we rely on experience instead, but is it the same? More importantly, there’s a lack of general awareness of the risks behind uninformed designs. Do we know the cost, in a dollar amount, behind choosing a microservices architecture just because it is used at Netflix? In contrast, in established fields like civil and architectural engineering there are widely recognized credentials. While experience is still important, you can count on any accredited engineer to design a sound structure, there’s not a number of years of experience that equates. Moreover, the risks behind an unqualified building design seem obvious, but can certainly be studied and quantified, and when money comes into play customers will be motivated to find the appropriate resource. While I don’t presume that software and these fields hold the same weight, the point is there are things we’re yet to figure out.</p>
@@ -118,7 +116,7 @@ en
 <p>Not only must an architect master technical knowledge in order to be universally valuable, they must also have the business awareness to first probe and discover the functional, performance, and social properties of the system to be built. Only then, guided by these goals, they must consider all the tools at their disposal to make informed design choices to satisfy those requirements. This is why Dr. Fielding’s showcase of Principled Design is far more useful to an architect than the result itself.</p>
 <p>An architect must also recognize that they don’t operate in a strictly academic field and concede when practical compromises should be made in the face of external circumstances, usually in the form of time or money constraints. While the results of these compromises may result in a less than ideal design, it is different than uninformed design. There are conscious decisions made on the interest of the business. That’s why we should also beware of engaging architects from companies with vested interest in REST or any other buzzworthy product to design our systems, as they may propose a solution without genuinely considering the particular needs of the business, plus the added risks of vendor lock-in. Because,</p>
 <blockquote>
-<p><em>if all you have is a hammer, everything looks like a nail</em>
+<p><em>if all you have is a hammer, everything looks like a nail</em><br>
 – Law of the Instrument</p>
 </blockquote>
 <p>It then becomes imperative not only to count on qualified experts, but to ensure that they are trusted to put the interest of the business first when making these choices. Having someone technically inclined in management could be advantageous here as it makes it easier to communicate the merits of a design choice and gain their trust. They may even become an allied technical advocate. Conversely, whether there is someone technically inclined or not, if an architect does not gain the trust of management they may be inclined to make or influence the architect’s choices, where all the same risks of uninformed designs apply.</p>
@@ -131,37 +129,37 @@ en
 <div class=col-md-3>
 <section class="row m-4">
 <h4>Categories</h4>
-<div><a href=https://josemontoya.io/categories/syntax/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title=syntax>
+<div><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/categories/syntax/ title=syntax>
 syntax <span class="badge bg-dark">1</span>
-</a><a href=https://josemontoya.io/categories/themes/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title=themes>
+</a><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/categories/themes/ title=themes>
 themes <span class="badge bg-dark">1</span>
 </a></div>
 </section><section class="row m-4">
 <h4>Series</h4>
-<div><a href=https://josemontoya.io/series/themes-guide/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title="Themes Guide">
+<div><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/series/themes-guide/ title="Themes Guide">
 Themes Guide <span class="badge bg-dark">1</span>
 </a></div>
 </section><section class="row m-4">
 <h4>Tags</h4>
-<div><a href=https://josemontoya.io/tags/markdown/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title=markdown>
+<div><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/tags/markdown/ title=markdown>
 markdown <span class="badge bg-dark">2</span>
-</a><a href=https://josemontoya.io/tags/rest/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title=rest>
+</a><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/tags/rest/ title=rest>
 rest <span class="badge bg-dark">2</span>
-</a><a href=https://josemontoya.io/tags/css/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title=css>
+</a><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/tags/css/ title=css>
 css <span class="badge bg-dark">1</span>
-</a><a href=https://josemontoya.io/tags/emoji/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title=emoji>
+</a><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/tags/emoji/ title=emoji>
 emoji <span class="badge bg-dark">1</span>
-</a><a href=https://josemontoya.io/tags/html/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title=html>
+</a><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/tags/html/ title=html>
 html <span class="badge bg-dark">1</span>
-</a><a href=https://josemontoya.io/tags/index/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title=index>
+</a><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/tags/index/ title=index>
 index <span class="badge bg-dark">1</span>
-</a><a href=https://josemontoya.io/tags/privacy/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title=privacy>
+</a><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/tags/privacy/ title=privacy>
 privacy <span class="badge bg-dark">1</span>
-</a><a href=https://josemontoya.io/tags/shortcodes/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title=shortcodes>
+</a><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/tags/shortcodes/ title=shortcodes>
 shortcodes <span class="badge bg-dark">1</span>
-</a><a href=https://josemontoya.io/tags/text/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title=text>
+</a><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/tags/text/ title=text>
 text <span class="badge bg-dark">1</span>
-</a><a href=https://josemontoya.io/tags/themes/ class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title=themes>
+</a><a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" href=https://josemontoya.io/tags/themes/ title=themes>
 themes <span class="badge bg-dark">1</span>
 </a></div>
 </section>
@@ -170,7 +168,7 @@ themes <span class="badge bg-dark">1</span>
 </div>
 </main><footer class="footer mt-auto py-3">
 <div class=container>
-<span>Copyright (c) 2021 Jose Montoya</span>
+<span>Copyright © 2021 Jose Montoya. All rights reserved.</span>
 </div>
 </footer>
 <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js integrity=sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj crossorigin=anonymous></script>
