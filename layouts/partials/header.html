@@ -12,8 +12,7 @@
         {{ range .Site.Menus.main }}
         {{ $active := or ($curr.IsMenuCurrent "main" .) ($curr.HasMenuCurrent "main" .) }}
         <li class="nav-item fw-bolder">
-          <a class="nav-link{{ if $active }} active{{end}}"
-        href="{{ .URL }}" title="{{ .Title }}">
+          <a class="nav-link{{ if $active }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">
           {{ .Name }}
           </a>
         </li>

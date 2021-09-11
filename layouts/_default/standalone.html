@@ -2,8 +2,10 @@
 <div class="container">
   <h1>{{ .Title }}</h1>
   <br class="mb-1">
+  {{ if .Params.banner }}
+  <img class="mb-3 rounded img-fluid" alt="Responsive image" src="{{ .Params.banner | relURL }}"/>
+  {{ end }}
   {{ .Content }}
-  blooopitys
   </div>
 </div>
 {{ end }}

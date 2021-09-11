@@ -1,14 +1,12 @@
 {{- if gt (len $.Site.Home.AllTranslations) 1 -}}
-<div class="dropdown ml-auto mt-n2">
-  <button class="btn-nav-lang btn rounded-0 btn-dark border-0 border-start border-end border-light border-2" type="button"
-  id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+<div class="dropdown ml-auto">
+  <button class="btn-nav-lang btn rounded-0 btn-dark bg-dark border-0 border-start border-end border-light border-2"
+  type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
     {{ $.Language.Lang }}
   </button>
   <ul class="dropdown-menu" aria-labelledby="languageDropdown">
     {{- range $.Site.Home.AllTranslations -}}
-      <!-- {{- if ne $.Lang .Language.Lang -}} -->
       <li><a class="dropdown-item" href="{{ .Permalink }}">{{ .Language.Lang }}</a></li>
-      <!-- {{- end -}} -->
     {{- end -}}
   </ul>
 </div>

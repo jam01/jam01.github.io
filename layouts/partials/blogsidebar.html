@@ -9,7 +9,8 @@
       <div>
       {{- range $idx, $taxonomy := . -}}
         {{- if lt $idx $taxonomyCount -}}
-        <a href="{{ $taxonomy.Page.Permalink }}" class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2" title="{{ $taxonomy.Page.Title }}">
+        <a class="btn btn-sm btn-outline-dark rounded-0 me-2 mb-2"
+        href="{{ $taxonomy.Page.Permalink }}" title="{{ $taxonomy.Page.Title }}">
           {{ $taxonomy.Page.Title }} <span class="badge bg-dark">{{ $taxonomy.Count }}</span>
         </a>
         {{- end -}}

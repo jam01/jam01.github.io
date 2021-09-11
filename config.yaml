@@ -20,6 +20,13 @@ taxonomies:
   series: Series
   tag: Tags
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      hardWraps: true
+
+
 # menu:
 #   main:
 #   - identifier: blog
