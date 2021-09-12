@@ -1,5 +1,5 @@
 {{ $dateTime := .PublishDate.Format "2006-01-02" }}
-{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "2006-02-01" }}
 <time datetime="{{ $dateTime }}" class="px-2">{{ .PublishDate.Format $dateFormat }}</time>
 {{ with .Params.tags }}
   {{ range . }}

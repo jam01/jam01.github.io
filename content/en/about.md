@@ -5,24 +5,23 @@ menu:
     weight: 30
 layout: "standalone"
 banner: /images/this-is-fine-jose.jpg
-# <!-- pre:  -->
 ---
 
-Jose Montoya is an outcome oriented Solutions Architect consultant. With 10 years of professional experience he's worked for multiple companies of every size and of various industries, always delivering customer value by working alongside stakeholders at different organizational levels. Jose specializes in Enterprise Integration and Cloud Native solutions.
+Jose Montoya is an outcomes oriented Solutions Architect consultant. With 10 years of professional experience he's worked for multiple companies of every size and of various industries, always delivering customer value by working alongside stakeholders at different organizational levels. Jose specializes in Enterprise Integration and Cloud Native solutions.
 
 <br>
 
 ### **Software Skills**
 
 {{<table "table table-sm">}}
-| Strategic                       | Technical                  | Discovery and Delivery         |
+| Strategic                       | Technical                  | Discovery and Lifecycle        |
 |---------------------------------|----------------------------|--------------------------------|
 | Domain Driven Design            | Java & Scala               | Agile practices                |
 | REST API design                 | Python                     | Scrum framework                |
 | Enterprise Integration Patterns | Spring Boot & Framework    | Goal oriented req. engineering |
-| Continuous Delivery             | Mule and Anypoint Platform | User story mapping             |
+| Continuous Delivery             | Mule & Anypoint Platform   | User story mapping             |
 | Infrastructure as Code          | Apache Camel               | Event storming                 |
-| Microservices arch. style       | Kubernetes and Openshift   |                                |
+| Microservices arch. style       | Kubernetes & Openshift     |                                |
 | Observability patterns          | Amazon Web Services        |                                |
 | Containerized applications      | Kong Gateway & Platform    |                                |
 |                                 | Kuma Service Mesh          |                                |
@@ -82,13 +81,13 @@ Jose Montoya is an outcome oriented Solutions Architect consultant. With 10 year
 </div>
 <div class="card col-md-4">
   <div class="card-body">
-    <h5 class="card-title mb-3 fw-bolder">Ansible - kubernetes</h5>
+    <h5 class="card-title mb-3 fw-bolder">Ansible Plugin - kubernetes</h5>
     <p class="card-text">Developed a Kubernetes plugin based on the official Ansible one, but instead making use of a `kubectl` binary to avoid compatibility issues of Python libraries.</p>
   </div>
 </div>
 <div class="card col-md-4">
   <div class="card-body">
-    <h5 class="card-title mb-3 fw-bolder">Ansible - kustomize</h5>
+    <h5 class="card-title mb-3 fw-bolder">Ansible Plugin - kustomize</h5>
     <p class="card-text">Developed a Kustomize plugin making use of a `kustomize` binary.</p>
   </div>
 </div>
@@ -122,7 +121,10 @@ In his time off Jose likes working on community-driven open-sourced projects, st
 <div class="row align-items-center">
 <div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/biking.jpg"/></div>
 <div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/sultana.jpg"/></div>
+<div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/fam.jpg"/></div>
+</div>
+
+<div class="row mt-4 align-items-center">
 <div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/lost-maples.jpg"/></div>
 <div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/waterfall.jpg"/></div>
-<div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/fam.jpg"/></div>
 </div>
