@@ -8,7 +8,9 @@ banner: /images/this-is-fine-jose.jpg
 # <!-- pre:  -->
 ---
 
-Jose Alberto Montoya is an outcome oriented Solutions Architect consultant. With 10 years of professional experience he's worked for multiple companies of every size and of various industries, always delivering customer value by working alongside stakeholders at different organizational levels. Jose specializes in Enterprise Integration and Cloud Native solutions.
+Jose Montoya is an outcome oriented Solutions Architect consultant. With 10 years of professional experience he's worked for multiple companies of every size and of various industries, always delivering customer value by working alongside stakeholders at different organizational levels. Jose specializes in Enterprise Integration and Cloud Native solutions.
+
+<br>
 
 ### **Software Skills**
 
@@ -28,21 +30,23 @@ Jose Alberto Montoya is an outcome oriented Solutions Architect consultant. With
 |                                 | Terraform                  |                                |
 {{</table>}}
 
+<br>
+
 ### **Open Source Contributions**
 
 <div class="row">
 <div class="card col-md-4">
   <div class="card-body">
     <h5 class="card-title mb-3 fw-bolder">DataSonnet v2</h5>
-    <p class="card-text">Spearheaded a major rewrite and expanded functionality of DataSonnet, a data transformation language for the JVM.
-    DataSonnet v2 is a free, full featured, and highly versatile data transformation language.</p>
+    <p class="card-text">Spearheaded a major rewrite and expanded functionality of DataSonnet, a data transformation language for the JVM.</p>
+    <p class="card-text">DataSonnet v2 is a free, full featured, and highly versatile data transformation language.</p>
   </div>
 </div>
 <div class="card col-md-4">
   <div class="card-body">
     <h5 class="card-title mb-3 fw-bolder">Apache Camel - OpenTracing</h5>
-    <p class="card-text">Contributed improved and more granular integration with OpenTracing in order to vastly improve observability at runtime.
-    Traceability of each processing step within apps has improved the ability to perform root-cause and performance analysis for our customers.</p>
+    <p class="card-text">Contributed improved and more granular integration with OpenTracing in order to vastly improve observability at runtime.</p>
+    <p class="card-text">Traceability of each processing step within apps improves the ability to perform root-cause and performance analysis.</p>
   </div>
 </div>
 <div class="card col-md-4">
@@ -59,14 +63,14 @@ Jose Alberto Montoya is an outcome oriented Solutions Architect consultant. With
 </div>
 <div class="card col-md-4">
   <div class="card-body">
-    <h5 class="card-title mb-3 fw-bolder">Tavros</h5>
-    <p class="card-text">Steered the selection of open source components, and led the automation of provisioning and configuration to compose a cohesive solution. Designed and implemented components around Continuous Delivery for the platform itself and its integration workloads.
-    Today Tavros is a maturing, but low-cost, modern and flexible Integration Platform.</p>
+    <h5 class="card-title mb-3 fw-bolder">Tavros - Integration Platform</h5>
+    <p class="card-text">Steered the selection of open source components, and led the automation of provisioning and configuration to compose a cohesive solution.</p>
+    <p class="card-text">Today Tavros is a maturing, but low-cost, modern and flexible Integration Platform.</p>
   </div>
 </div>
 <div class="card col-md-4">
   <div class="card-body">
-    <h5 class="card-title mb-3 fw-bolder">Mule - WireMock</h5>
+    <h5 class="card-title mb-3 fw-bolder">Mule 4 - WireMock</h5>
     <p class="card-text">Developed Mule 4 WireMock connector to enable narrow integration tests as part of the unit test framework, in order to improve continuous integration quality.</p>
   </div>
 </div>
@@ -79,7 +83,7 @@ Jose Alberto Montoya is an outcome oriented Solutions Architect consultant. With
 <div class="card col-md-4">
   <div class="card-body">
     <h5 class="card-title mb-3 fw-bolder">Ansible - kubernetes</h5>
-    <p class="card-text">Developed a Kubernetes plugin based on the official Ansible one, but instead making use of a `kubectl` binary to avoid compatibility issues with Python libraries.</p>
+    <p class="card-text">Developed a Kubernetes plugin based on the official Ansible one, but instead making use of a `kubectl` binary to avoid compatibility issues of Python libraries.</p>
   </div>
 </div>
 <div class="card col-md-4">
@@ -90,6 +94,8 @@ Jose Alberto Montoya is an outcome oriented Solutions Architect consultant. With
 </div>
 </div>
 
+<br>
+
 ### **Education and Certifications**
 * Bachelor of Science in Computer Engineering - University of Texas
 * Cisco Certified Network Associate
@@ -99,7 +105,6 @@ Jose Alberto Montoya is an outcome oriented Solutions Architect consultant. With
 * Mulesoft Certified Integration Professional
 * Scrum.org Professional Scrum Master I
 
-<br>
 
 ---
 
@@ -114,10 +119,10 @@ In his time off Jose likes working on community-driven open-sourced projects, st
 
 <br>
 
-<div class="row">
-<div class="col-md-6"><img class="mb-3 rounded img-fluid" alt="Responsive image" src="/images/biking.jpg"/></div>
-<div class="col-md-6"><img class="mb-3 m-auto rounded img-fluid" alt="Responsive image" src="/images/sultana.jpg"/></div>
-<div class="col-md-6"><img class="mb-3 m-auto rounded img-fluid" alt="Responsive image" src="/images/lost-maples.jpg"/></div>
-<div class="col-md-6"><img class="mb-3 m-auto rounded img-fluid" alt="Responsive image" src="/images/waterfall.jpg"/></div>
-<div class="col-md-12"><img class="mb-3 m-auto rounded img-fluid" alt="Responsive image" src="/images/fam.jpg"/></div>
+<div class="row align-items-center">
+<div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/biking.jpg"/></div>
+<div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/sultana.jpg"/></div>
+<div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/lost-maples.jpg"/></div>
+<div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/waterfall.jpg"/></div>
+<div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/fam.jpg"/></div>
 </div>
