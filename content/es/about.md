@@ -14,7 +14,7 @@ José Montoya es un consultor de Arquitecto de Soluciones orientado a los objeti
 ### **Habilidades de Software**
 
 {{<table "table table-sm">}}
-| Estratégica                         | Técnicas                   | Descubrimiento y ciclo de desarrollo     |
+| Estratégicas                        | Técnicas                   | Descubrimiento y ciclo de desarrollo     |
 |-------------------------------------|----------------------------|------------------------------------------|
 | Domain Driven Design                | Java & Scala               | Prácticas ágiles                         |
 | Diseño de APIs REST                 | Python                     | Marco Scrum                              |
@@ -96,7 +96,7 @@ José Montoya es un consultor de Arquitecto de Soluciones orientado a los objeti
 <br>
 
 ### **Educación y Certificaciones**
-* Bachelor of Science in Computer Engineering - Universidad of Texas
+* Bachelor of Science in Computer Engineering - University of Texas
 * Cisco Certified Network Associate
 * Red Hat Delivery Specialist – Middleware Integration Services
 * Red Hat Delivery Specialist – Platform-As-A-Service
