@@ -1,0 +1,36 @@
++++
+author = "Jose Montoya"
+title = "The Problem with API-Led - Part 1"
+date = "2021-12-14"
+description = "???"
+tags = [
+    "integration",
+    "apis",
+    "patterns"
+]
+categories = [
+    "integration",
+]
++++
+
+In my years of helping organizations with modernization or API-enablement through integration I constantly interact with proponents of Mulesoft's API-Led architectural pattern. Either because they sincerely believe in its technical merits, or because of some variation of _it was given to us from above_.
+
+If you've worked with me in the past you know that API-Led is not anywhere near the top of my Go-To patterns, to put it politely.
+
+I'll usually engage honestly in a discussion around the applicability and limitations of the pattern based on my experience and that of other thought leaders in this space. I'll usually suggest another pattern in its place, because when you criticize any solution without an alternative you're just whining. Not coincidentally, every conversation always starts with or arrives at the part where we need to agree on what we mean by API-Led.
+
+Earlier this year I had one such discussion with a Director of Enterprise Architecture, whom we'll call Jim. Now, Jim is a smart and experienced professional, truly. Jim's organization had started on a green field product a little less than year prior and was leveraging Mulesoft to implement all of their backend systems. Jim directed the architects in his team to employ API-Led pattern across the board to drive API reusability.
+
+The organization was seeing a high lead time to adding features or just making general changes in the platform. A high level of collaboration needed to occur, and multiple things needed to be tested and tested again for individual changes. However, my task in the org was to help some team craft new APIs around their particular area of the business. I made some high level designs and shared them with the engineering manager, the first question from them was "where are the system, process, and experience APIs? That's what we have to do."
+
+You might be nodding your head, or are recounting a similar conversation. So I decided to reach out to Jim to discuss the (ab)use of API-Led and suggest some more consideration around its applicability and other approaches that would speed up the way we were delivering value to our customers. I started by explaining at a high level how the way the pattern works is known to slow digital native organizations (more on this later), Jim's reply was "well, there's different interpretations of API-Led...". I knew I was in for an uphill battle.
+
+There's two main parts to codifying things into patterns. The main one is the technical: its implementation, the context in which it can be applied, the resulting context, limitations, challenges, etc. The second one is the cognitive or semantic one, when I say MVC you immediately know what I'm talking about, those that work in the presentation domain will think about its limitations around data binding in comparison to a pattern like MVVM, for example. If I say pipes and filters you'll think of Unix or even the Mule DSL itself. You get the idea. The authors of Fearless Change, Patterns for Introducing New Ideas, put it this way:
+
+_The name of the pattern is of critical importance. When pattern names are used in a community, the individuals speak a common language... If it can be used and the people working in the area understand what you mean, then the name is probably a good one... That’s an effective test for a pattern name._
+
+If every time we discuss the applicability of API-Led we have to level-set what it means, then it's a bad name. This has more implications than "just semantics", it leads to some parties applying the pattern one way and others in another. Once you change something from the pattern you can no longer guarantee that the promised outcomes will be realized. Just ask Roy Fielding what happens when people do "REST" but change anything integral to it.
+
+API-Led suggests something along the lines of API driven or API first design. Which is hardly groundbreaking or descriptive at all. Ultimately it's about layering API-enabled microservices that are sliced by their rate of change, you create building blocks layered from more stable systems of record all the way up to frequently changing systems of engagement. Doesn't sound bad. _Narrator: it was bad._
+
+Next we'll dive into the technical part. Stay tuned!
