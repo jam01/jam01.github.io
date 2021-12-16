@@ -17,7 +17,7 @@ In my years of helping organizations with modernization or API-enablement throug
 
 If you've worked with me in the past you know that API-Led is not anywhere near the top of my Go-To patterns, to put it politely.
 
-I'll usually engage honestly in a discussion around the applicability and limitations of the pattern based on my experience and that of other thought leaders in this space. I'll usually suggest another pattern in its place, because when you criticize any solution without an alternative you're just whining. Not coincidentally though, every conversation always starts with or arrives at the part where we need to agree on what we mean by API-Led.
+I'll usually engage honestly in a discussion around the applicability and limitations of the pattern based on my experience and that of other thought leaders in this space. I do also keep handy my printed copy of the whitepaper, though. Then I'll usually suggest another pattern in its place, because when you criticize any solution without an alternative you're just whining. Not coincidentally though, every conversation always starts with or arrives at the part where we need to agree on what we mean by API-Led.
 
 Earlier this year I had one such discussion with a Director of Enterprise Architecture, whom we'll call Jim. Now, Jim is a smart and experienced professional, truly. Jim's organization had started on a green field product a little less than year prior and was leveraging Mulesoft to implement all of their backend systems. Jim directed the architects in his team to employ API-Led pattern across the board to drive API reusability.
 
