@@ -54,18 +54,14 @@ en
 <p>The organization was seeing a high lead time to adding features or changes in general to the platform. A high level of collaboration needed to occur, and multiple things needed to be tested across layers for individual changes. However, my task in the org was to help some team craft new APIs around some particular area of the business. I made some high level designs and shared them with the lead engineer, the first question from them was &ldquo;Where are the system, process, and experience APIs? That&rsquo;s what we need to do.&rdquo;</p>
 <p>You might be nodding your head, or are recounting a similar conversation. So I decided to reach out to Jim to discuss the (ab)use of API-Led and suggest some more consideration around its applicability and other approaches that would speed up the way we were delivering value to our customers. I started by explaining at a high level how the way the pattern works is known to slow digital native organizations (more on this in Part 2), Jim&rsquo;s reply was &ldquo;Well, there&rsquo;s different interpretations of API-Led&mldr;&rdquo; (🚩🚩🚩).</p>
 <br>
-<p align=center>
-<img src=https://i.imgflip.com/2ze11z.jpg alt="here we go again">
-</p>
+<img class="rounded img-fluid" src=https://i.imgflip.com/2ze11z.jpg alt="here we go again">
 <br>
 <p>There&rsquo;s two main parts to codifying things into patterns. The main one is the technical: its implementation, the context in which it can be applied, the resulting context, limitations, challenges, etc. The second one is the cognitive or semantic one, when I say MVC you immediately know what I&rsquo;m talking about, those that work in the presentation domain will think about its limitations around data binding in comparison to a pattern like MVVM, for example. If I say Pipes and Filters you&rsquo;ll think of Unix or even the Mule DSL itself. You get the idea.</p>
 <p>The authors of Fearless Change, Patterns for Introducing New Ideas, put it this way:</p>
 <p><em>The name of the pattern is of critical importance. When pattern names are used in a community, the individuals speak a common language&mldr; If it can be used and the people working in the area understand what you mean, then the name is probably a good one&mldr; That’s an effective test for a pattern name.</em></p>
 <p>If every time we discuss the applicability of API-Led we have to level-set what it means, then it&rsquo;s a bad name. This has more implications than &ldquo;just semantics&rdquo;, it leads to some parties applying the pattern one way and others in another. Once you change something from the pattern you can no longer guarantee that the predicted outcomes will be realized. If I give you a recipe for some desert but you skip the sweetener, then we&rsquo;re in trouble.</p>
 <br>
-<p align=center>
-<img src=https://i.imgflip.com/5ymcj9.jpg alt="it does not mean what you think">
-</p>
+<img class="rounded img-fluid" src=https://i.imgflip.com/5ymcj9.jpg alt="it does not mean what you think">
 <br>
 <p>&ldquo;API-Led&rdquo; suggests something along the lines of API-driven or API-first design, which is hardly groundbreaking or descriptive at all. The name seems driven more by marketing than anything technical, which should make some suspect of the motivation behind it. Ultimately it&rsquo;s about layering API-enabled microservices that are sliced by their rate of change; you create layers as building blocks, from more stable systems of record all the way up to frequently changing systems of engagement.</p>
 <p>Doesn&rsquo;t sound bad. <em>Narrator: it was bad.</em></p>
