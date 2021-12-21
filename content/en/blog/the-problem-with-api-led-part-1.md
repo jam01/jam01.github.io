@@ -1,7 +1,7 @@
 ---
 author: Jose Montoya
 title: The Problem with API-Led - Part 1
-date: 2021-12-14
+date: 2021-12-21
 description: ???
 tags: [ "integration", "api", "patterns" ]
 categories: [ "integration" ]
@@ -37,7 +37,7 @@ If every time we discuss API-Led's applicability we have to level-set what it me
 
 "API-Led" suggests something along the lines of API-driven or API-first design, which is hardly groundbreaking or descriptive at all. The name seems driven more by marketing than anything technical, which should make some suspect of the motivation behind it. Ultimately it's about layering API-enabled microservices sliced by their rate of change; you create layers as building blocks, from more stable systems of record up to frequently changing systems of engagement.
 
-API-Led sounds good! Narrator: it wasn't good.
+API-Led doesn't sound bad! Narrator: it was.
 
 In Part 2, we'll dive into the technical part. Stay tuned!
 
