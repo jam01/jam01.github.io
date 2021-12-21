@@ -20,9 +20,7 @@ The organization was seeing a high lead time to adding features or changes in ge
 You might be nodding your head, or are recounting a similar conversation. So I decided to reach out to Jim to discuss the (ab)use of API-Led and suggest some more consideration around its applicability and other approaches that would speed up the way we were delivering value to our customers. I started by explaining at a high level how the way the pattern works is known to slow digital native organizations (more on this in Part 2), Jim's reply was "Well, there's different interpretations of API-Led..." (🚩🚩🚩).
 
 <br/>
-<p align="center">
-<img src="https://i.imgflip.com/2ze11z.jpg" alt="here we go again" />
-</p>
+<img class="rounded img-fluid" src="https://i.imgflip.com/2ze11z.jpg" alt="here we go again" />
 <br/>
 
 There's two main parts to codifying things into patterns. The main one is the technical: its implementation, the context in which it can be applied, the resulting context, limitations, challenges, etc. The second one is the cognitive or semantic one, when I say MVC you immediately know what I'm talking about, those that work in the presentation domain will think about its limitations around data binding in comparison to a pattern like MVVM, for example. If I say Pipes and Filters you'll think of Unix or even the Mule DSL itself. You get the idea.
@@ -34,9 +32,7 @@ _The name of the pattern is of critical importance. When pattern names are used 
 If every time we discuss the applicability of API-Led we have to level-set what it means, then it's a bad name. This has more implications than "just semantics", it leads to some parties applying the pattern one way and others in another. Once you change something from the pattern you can no longer guarantee that the predicted outcomes will be realized. If I give you a recipe for some desert but you skip the sweetener, then we're in trouble.
 
 <br/>
-<p align="center">
-<img src="https://i.imgflip.com/5ymcj9.jpg" alt="it does not mean what you think" />
-</p>
+<img class="rounded img-fluid" src="https://i.imgflip.com/5ymcj9.jpg" alt="it does not mean what you think" />
 <br/>
 
 
