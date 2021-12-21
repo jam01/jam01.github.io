@@ -36,7 +36,6 @@ Según el [2021 State of Enterprise Open Source Report de Red Hat](https://www.r
 
 Con un conocimiento profundo y años de experiencia profesional en el panorama de código abierto y nativo de la nube, José puede guiar a su empresa desde la infraestructura a través de la entrega hasta la observabilidad y la gobernanza para **entregar una estrategia innovadora para una plataforma nativa de la nube** adaptada a tus necesidades.
 
-
 # Ágil y Entrega Continua
 
 Según _Accelerate: Building and Scaling High Performance Technology Organizations_ de Jez Humble, las prácticas de entrega continua, como la integración continua, la automatización de instalación, la automatización de pruebas, el desarrollo en rama principal (trunk based) y el trabajo en porciones pequeñas, predican el rendimiento de TI. De los encuestados sobre el uso de estas prácticas:

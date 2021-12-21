@@ -9,7 +9,7 @@ banner: /images/this-is-fine-jose.jpg
 
 Jose Montoya is an outcomes oriented Solutions Architect consultant. With 10 years of professional experience he's worked for multiple companies of every size and of various industries, always delivering customer value by working alongside stakeholders at different organizational levels. Jose specializes in Enterprise Integration and Cloud Native solutions.
 
-<br>
+<br/>
 
 ### **Software Skills**
 
@@ -29,7 +29,7 @@ Jose Montoya is an outcomes oriented Solutions Architect consultant. With 10 yea
 |                                 | Terraform                  |                                |
 {{</table>}}
 
-<br>
+<br/>
 
 ### **Open Source Contributions**
 
@@ -93,7 +93,7 @@ Jose Montoya is an outcomes oriented Solutions Architect consultant. With 10 yea
 </div>
 </div>
 
-<br>
+<br/>
 
 ### **Education and Certifications**
 * Bachelor of Science in Computer Engineering - University of Texas
@@ -107,24 +107,23 @@ Jose Montoya is an outcomes oriented Solutions Architect consultant. With 10 yea
 
 ---
 
-<br>
-
+<br/>
 
 <img class="mb-3 m-auto rounded img-fluid" alt="Responsive image" style="display:block;" src="/images/cocibolca.jpg"/>
 
-<br>
+<br/>
 
 In his time off Jose likes working on community-driven open-sourced projects, staying up to date with the latest software engineering practices, watching sports, playing videogames, hiking, mountain biking, or tending to his garden in South Texas.
 
-<br>
+<br/>
 
 <div class="row align-items-center">
-<div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/biking.jpg"/></div>
-<div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/sultana.jpg"/></div>
-<div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/fam.jpg"/></div>
+  <div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/biking.jpg"/></div>
+  <div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/sultana.jpg"/></div>
+  <div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/fam.jpg"/></div>
 </div>
 
 <div class="row mt-4 align-items-center">
-<div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/lost-maples.jpg"/></div>
-<div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/waterfall.jpg"/></div>
+  <div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/lost-maples.jpg"/></div>
+  <div class="col-md-4"><img class="rounded img-fluid" alt="Responsive image" src="/images/waterfall.jpg"/></div>
 </div>

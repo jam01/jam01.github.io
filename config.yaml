@@ -11,7 +11,7 @@ languages:
     weight: 10
     contentDir: content/en
   es:
-    languageName: Espanol
+    languageName: Español
     weight: 20
     contentDir: content/es
 
