@@ -28,9 +28,16 @@ You might be nodding your head or are recounting a similar conversation. So I de
 
 There are two main parts to codifying things into patterns. The main one is the technical: its implementation, the context in which it can be applied, the resulting context, limitations, challenges, etc. The second one is the cognitive or semantic one; when I say MVC, you immediately know what I'm talking about; those working in the presentation domain will think about its limitations around data binding compared to a pattern like MVVM, for example. If I say Pipes and Filters, you'll think of Unix or even the Mule DSL itself. You get the idea.
 
-The authors of Fearless Change, Patterns for Introducing New Ideas, put it this way:
+The authors of "Fearless Change, Patterns for Introducing New Ideas", put it this way:
 
-_The name of the pattern is of critical importance. When pattern names are used in a community, the individuals speak a common language… If it can be used and the people working in the area understand what you mean, then the name is probably a good one… That's an effective test for a pattern name._
+<figure class="mx-5">
+  <blockquote class="blockquote">
+    <p><em>The name of the pattern is of critical importance. When pattern names are used in a community, the individuals speak a common language… If it can be used and the people working in the area understand what you mean, then the name is probably a good one… That's an effective test for a pattern name.</em></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Mary Lynn Manns and Linda Rising in <cite title="Fearless Change">Fearless Change</cite>
+  </figcaption>
+</figure>
 
 If every time we discuss API-Led's applicability we have to level-set what it means, then it's a bad name. The extra cognitive hurdle has more implications than "just semantics"; it leads to some parties applying the pattern one way and others in another. And once you change something from the pattern, you can no longer guarantee that the predicted outcomes will be realized. If I give you a recipe for some dessert, but you skip the sweetener, then we're in trouble.
 
