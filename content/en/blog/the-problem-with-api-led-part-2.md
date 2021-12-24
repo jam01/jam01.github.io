@@ -14,9 +14,12 @@ Today I'm convinced the pattern as designed, even without misuse, is just not a 
 With that said, before I try to convince you of why the pattern isn't good we must, once again, define what it _is_.
 
 <br/>
-<p align="center">
-<img src="https://i.imgflip.com/5ymect.jpg" alt="is this an api led" />
-</p>
+
+<div class="row align-items-center">
+<div class="col-md-2"></div>
+<div class="col-md-6"><img class="rounded img-fluid" src="https://i.imgflip.com/5ymect.jpg" alt="is this an api-led" /></div>
+<div class="col-md-2"/></div>
+</div>
 <br/>
 
 In order to do this I've codified API-Led directly from the _API-Led Connectivity_ whitepaper by Mulesoft into the Pattern Language structure. Software professionals sure love patterns so presenting the pattern in this format should be conducive to level-setting. Note that I've explicitly re-used the wording from the whitepaper in order to avoid any discussion around "my interpretation".
@@ -102,7 +105,7 @@ I'm actually super late with this article, ThoughtWorks realized this in 2018(!!
 </div>
 <br/>
 
-The problem with API-Led is that the **Problem** is inaccurate. The dichotomy between slow and stable, and fast and changing no longer holds. Gregor Hohpe (you know, the guy that wrote the book on Enterprise Integration) expressed it best:
+The problem with API-Led is that the **Problem** is inaccurate. The dichotomy between slow and stable, and fast and less-critical no longer holds. Gregor Hohpe (you know, the guy that wrote the book on Enterprise Integration) expressed it best:
 
 <figure class="mx-5">
   <blockquote class="blockquote">
