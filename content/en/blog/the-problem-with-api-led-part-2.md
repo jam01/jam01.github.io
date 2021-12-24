@@ -134,7 +134,7 @@ A superficial attempt at our bank example may result in something like this:
 
 There's a lot to unpack in this depiction, but there's a couple specific things I want to call out:
 
-* We're moving away from isolating "Central IT" as only managers of systems of record to a post-industrial understanding that IT is the main enabler in digital organizations and must co-create value. Read Jeff Sussna's - _Designing Delivery_.
+* We're moving away from an outdated understanding of IT where the Business throws requirements over the wall, and where an isolated "Central IT" only manages systems of record, towards a post-industrial understanding that IT is the main enabler in digital organizations and must co-create value. Read _Designing Delivery_ by Jeff Sussna.
 
 * Instead of changes spanning multiple teams, requiring coordination and lacking visibility in delivery, the vertical fracture planes help us assign stream-aligned teams:
 <figure class="mx-5">
@@ -146,20 +146,20 @@ There's a lot to unpack in this depiction, but there's a couple specific things 
   </figcaption>
 </figure>
 
-* A team-first organization through team-bound services will maximize their abilities by focusing their efforts and therefore its own ability to deliver value to their customers:
+* A team-first organization through team-bound services will maximize their abilities by focusing their efforts and therefore the org's own ability to deliver value to their customers:
 <figure class="mx-5">
   <blockquote class="blockquote">
-    <p><em>... there is an effective upper limit on the cognitive load that a single team can bear. This strongly suggests a limit on the size of the software systems and complexity of domains that any team should work with. The team needs to own the system or subsystems they are responsible for. Teams working on multiple codebases lack ownership and, especially, the mental space to understand and keep the corresponding systems healthy.</em></p>
+    <p><em>... there is an effective upper limit on the cognitive load that a single team can bear... The team needs to own the system or subsystems they are responsible for. Teams working on multiple codebases lack ownership and, especially, the mental space to understand and keep the corresponding systems healthy.</em></p>
   </blockquote>
   <figcaption class="blockquote-footer">
     Matthew Skelton and Manuel Pais in <cite title="Team Topologies">Team Topologies</cite>
   </figcaption>
 </figure>
 
+For an in-depth understanding around this approach I'd recommend _Team Topologies_ by Matthew Skelton and Manuel Pais, and How to Model Microservices from _Building Microservices 2nd Edition_ by Sam Newman.
+
 ---
 
-I'd recommend these books in order to get an in-depth understanding of how to architecture modern digital organizations:
-* Designing Delivery - Jeff Sussna
-* Team Topologies - Matthew Skelton and Manuel Pais
-* Accelerate: Building and Scaling High Performing Technology Organizations - Jez Humble et al.
-* Building Microservices - Sam Newman
+Further reading:
+* _Designing Delivery_ by Jeff Sussna
+* _Accelerate: Building and Scaling High Performing Technology Organizations_ by Jez Humble et al.
