@@ -7,7 +7,7 @@ tags: [ "integration", "api", "patterns" ]
 categories: [ "integration" ]
 ---
 
-In the first part of this series, I talked about the issues around the name "API-Led." For some time, I thought we could address this problem by clarifying further what API-Led is and isn't and proposing a different name. In fact, during our time at MS3, my friend Josh Erney (the DataWeave guru) and I collaborated to clarify what an API-Led implementation should look like. Alas, the article never came to light.
+In the [first part](https://josemontoya.io/blog/the-problem-with-api-led-part-1/) of this series, I talked about the issues around the name "API-Led." For some time, I thought we could address this problem by clarifying further what API-Led is and isn't and proposing a different name. In fact, during our time at MS3, my friend Josh Erney (the DataWeave guru) and I collaborated to clarify what an API-Led implementation should look like. Alas, the article never came to light.
 
 However, after years of seeing organizations struggle to implement it correctly and experience some pain even when they get it right, I realized the pattern does not fit modern organizations, even without misuse. Though it may be possible to address some of its issues, I'm not convinced it's worth the necessary effort. We should move on from it entirely.
 
