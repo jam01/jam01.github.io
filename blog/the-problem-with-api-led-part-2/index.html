@@ -47,9 +47,9 @@ en
 <a class="btn btn-sm btn-outline-dark rounded-0" href=https://josemontoya.io/tags/api>api</a>
 <a class="btn btn-sm btn-outline-dark rounded-0" href=https://josemontoya.io/tags/patterns>patterns</a>
 <br class=mb-4>
-<p>In the first part of this series I talked about the issues around the not fit-for-purpose name of &ldquo;API-Led&rdquo;. For some time I thought that we could address this problem with either clarifying exactly what API-Led is and isn&rsquo;t and/or proposing a better name. In fact, during our time at MS3 my friend Josh Erney (the DataWeave guru) and I collaborated on such an effort of clarifying what an API-Led implementation should look like. Alas the article never came to light.</p>
-<p>Today I&rsquo;m convinced the pattern as designed, even without misuse, is just not a very good one. Though it may be possible to address its issues, it&rsquo;s not worth the necessary effort. We should just move on from it entirely.</p>
-<p>With that said, before I try to convince you of why the pattern isn&rsquo;t good we must, once again, define what it <em>is</em>.</p>
+<p>In the first part of this series, I talked about the issues around the name &ldquo;API-Led.&rdquo; For some time, I thought we could address this problem by clarifying further what API-Led is and isn&rsquo;t and proposing a different name. In fact, during our time at MS3, my friend Josh Erney (the DataWeave guru) and I collaborated to clarify what an API-Led implementation should look like. Alas, the article never came to light.</p>
+<p>However, after years of seeing organizations struggle to implement it correctly and experience some pain even when they get it right, I realized the pattern does not fit modern organizations, even without misuse. Though it may be possible to address some of its issues, I&rsquo;m not convinced it&rsquo;s worth the necessary effort. We should move on from it entirely.</p>
+<p>With that said, before I try to convince you of why the pattern isn&rsquo;t good, we must once again define what it <em>is</em>.</p>
 <br>
 <div class="row align-items-center">
 <div class=col-md-2></div>
@@ -57,7 +57,7 @@ en
 <div class=col-md-2></div>
 </div>
 <br>
-<p>In order to do this I&rsquo;ve codified API-Led directly from the <em>API-Led Connectivity</em> whitepaper by Mulesoft into the Pattern Language structure. Software professionals sure love patterns so presenting the pattern in this format should be conducive to level-setting. Note that I&rsquo;ve explicitly re-used the wording from the whitepaper in order to avoid any discussion around &ldquo;my interpretation&rdquo;.</p>
+<p>To do this, I&rsquo;ve codified API-Led directly from the <em>API-Led Connectivity</em> whitepaper by Mulesoft into the Pattern Language structure. Software professionals sure love patterns, so presenting API-Led in this format should be conducive to level-setting. Note that I&rsquo;ve explicitly re-used the wording from the whitepaper to avoid any discussion around &ldquo;my interpretation.&rdquo;</p>
 <h3 id=api-led-in-pattern-language>API-Led in Pattern Language</h3>
 <p><strong><em>Name</em></strong>: API-Led</p>
 <p><strong><em>Context</em></strong>: Digital transformation has enabled companies to engage with their stakeholders in new and innovative ways, irreversibly reshaping industry boundaries and business models. Technologies like SaaS, mobile and IoT, have dramatically increased the number of endpoints to connect to.</p>
@@ -90,19 +90,19 @@ en
 </tr>
 </tbody>
 </table>
-<p>The System Layer encompasses the slower changing systems of record, APIs in this layer expose and abstract the underlying data to decouple the consumer from the system. The Process Layer encapsulates as services the more frequently changing business processes, independent of the source systems and the target channels of engagement. The Experience Layer and its APIs reconfigure the data from the previous layers to provide a common data source for multiple channels of engagement, which change most often.</p>
+<p>The System Layer encompasses the slower changing systems of record, APIs in this layer expose and abstract the underlying data to decouple the consumer from the system. The Process Layer encapsulates as services, the more frequently changing business processes, independent of the source systems and the target channels of engagement. The Experience Layer and its APIs reconfigure the data from the previous layers to provide a common data source for multiple channels of engagement, which change most often.</p>
 <p><strong><em>Resulting Context</em></strong>: Increased productivity through re-use, and agility through loose coupling of systems.</p>
 <hr>
 <br>
-<p>Let&rsquo;s first dig into the mismatch between the <strong>Solution</strong> and the <strong>Resulting Context</strong>, then we&rsquo;ll challenge the <strong>Problem</strong> which is the root of why the pattern is usually unsuccessful in the long term.</p>
-<p>Let&rsquo;s assume a greenfield implementation that avoided the incredibly common pitfalls we see organizations trip over: equate the three layered architecture with the State-Logic-Display (aka. Three-Tier) architectural pattern, or always implementing all three tiers for every single use case even if a particular component ends up being a proxy or &ldquo;passthrough&rdquo;, or not abstracting a system e.g.: a Salesforce API vs a CRM API.</p>
-<p>A good API-Led implementation for a bank may look something like this:<br>
+<p>Let&rsquo;s first dig into the mismatch between the <strong>Solution</strong> and the <strong>Resulting Context</strong>, then we&rsquo;ll challenge the <strong>Problem</strong>, which is the root of why the pattern is usually unsuccessful in the long term.</p>
+<p>Let&rsquo;s assume a greenfield implementation that avoided the widespread pitfalls we see organizations trip over: equate the three-layered architecture with the State-Logic-Display (aka. Three-Tier) architectural pattern; or constantly implementing all three tiers for every single use case even if a particular component ends up being a proxy or &ldquo;passthrough&rdquo;; or not abstracting a system, e.g., a Salesforce API vs. a CRM API.</p>
+<p>A simple API-Led implementation for a bank may look something like this:<br>
 <br><br>
 <img class="mb-3 m-auto rounded img-fluid" alt="api led example" style=display:block src=/images/api-led-problem-p2-colored.png><br>
 <br></p>
 <p>OK, so we have implemented the <strong>Solution</strong>, let&rsquo;s examine the promised <strong>Resulting Context</strong>: reusability and loose coupling.</p>
-<p>In Jez Humble et al.&rsquo;s &ldquo;Accelerate: Building and Scaling High Performing Technology Organizations&rdquo; we have two architectural capabilities that predict high org performance: Loosely coupled architecture, and Empowered teams.</p>
-<p>While reusability is sometimes achieved through API-Led, it is not a predictor for high performance, and though it is a noble pursuit it becomes a trade-off to speed. Gregor Hohpe puts it this way:</p>
+<p>In Jez Humble et al.&rsquo;s &ldquo;Accelerate: Building and Scaling High Performing Technology Organizations,&rdquo; we have two architectural capabilities that predict high org performance: Loosely coupled architecture and Empowered teams.</p>
+<p>While reusability is sometimes achieved through API-Led, it is not a predictor for high performance, and though it is a noble pursuit, it becomes a trade-off to speed. Gregor Hohpe puts it this way:</p>
 <figure class=mx-5>
 <blockquote class=blockquote>
 <p><em>Evolving a widely reused resource also requires coordination because changes must be compatible with all existing systems or users. Such coordination can slow down innovation... Some digital companies have even begun to explicitly favor duplication because their business environment rewards economies of speed.</em></p>
@@ -111,12 +111,12 @@ en
 Gregor Hohpe in <cite title="The Architect Elevator">The Architect Elevator</cite>
 </figcaption>
 </figure>
-<p>So let&rsquo;s talk through loose coupling, that a change to one service should not require a change to another. If the frequently changing Experience APIs only ever changed by re-arranging existing data then, sure, the layers are loosely coupled. They can deploy at their own rates. But the changes that drive a innovative company are to add or change capabilities that span all layers; the simplest example would be adding a new field.</p>
-<p>In our bank example, let&rsquo;s say that we wanted to show our mobile users the last time they checked each account, which we weren&rsquo;t tracking before. So what does an API-Led org have to do? The stakeholders will drive the initiative and coordinate with all the engineering managers and/or project managers for each team involved in the change. Coordination across teams must occur to accommodate the change: what system of record should contain the new data? What is the name of the field in the system? What should it be called in the abstracted application interface? What should it be called in the layer above that? What should it be called in the UI? Then the actual work has to be done across layers and the UI. Some time later when the stakeholders want to know the progress of the change, no one really knows; all teams must be interrogated in order to know each of their progress and compose a report.</p>
-<p>Between coordination, actual implementation, the un-escapeable change in requirements, testing, and integration testing, a simple change like this can take months to be realized, perhaps over a year if the teams are implementing multiple initiatives at once. I&rsquo;ve experienced this.</p>
+<p>So let&rsquo;s talk through loose coupling, that a change to one service should not require a change to another. If the frequently changing Experience APIs only ever change by re-arranging existing data, then, sure, the layers are loosely coupled. They can deploy at their own rates. But the changes that drive an innovative company are on capabilities that span all layers! The most straightforward example would be adding a new field to a user interface.</p>
+<p>In our bank example, let&rsquo;s say that we wanted to show our mobile users the last time they checked each account, which we weren&rsquo;t tracking before. So what does an API-Led org have to do? The stakeholders will drive the initiative and coordinate with all the engineering managers or project managers for each team involved in the change. Coordination across teams must occur to accommodate the project: what system of record should contain the new data? What will be the name of the field in the system? What will be the name in the abstracted application interface? What will it be in the layer above that one and the one above that one? What will it be in the UI? Then the actual work has to be done across layers and the UI. Sometime later, when the stakeholders want to know the progress of the change, no one knows; all teams must be interrogated to know each of their progress and compose a report.</p>
+<p>Because of the necessary coordination between many teams going through the actual implementation, the un-escapable change in requirements, testing, and integration testing, a simple change like this can take months to get to production, especially if the teams are working on multiple initiatives at once. I&rsquo;ve experienced this. You&rsquo;ve experienced this.</p>
 <p>Digital companies <del>do not</del> <em>can not</em>, take months to add a field to some UI.</p>
-<p>In our bank API-Led architecture we didn&rsquo;t define what those underlying systems of record were. Let&rsquo;s say that for our CRM we used Salesforce. In your experience, does Salesforce change only every 6-12 months? Nope. It&rsquo;s usually changing as fast or faster than any Experience API! All of the frequent changes in Salesforce that impact our Web & Mobile API will continue to affect all layers, with all the lead-time associated before delivering that value to our customers.</p>
-<p>I&rsquo;m actually super late with this article, ThoughtWorks realized this in 2018(!!!):</p>
+<p>In our bank API-Led architecture, we didn&rsquo;t define what those underlying systems of record were. Let&rsquo;s say that for our CRM, we used Salesforce. In your experience, does Salesforce change only every 6-12 months? Nope. It usually changes as fast or faster than any Experience API! All of the frequent changes in Salesforce that impact our Web & Mobile API will affect all layers, with all the lead-time associated before delivering that value to our customers.</p>
+<p>I&rsquo;ve wanted to write this article for a year, maybe two, and since sharing Part 1, I&rsquo;ve been shown similar ones by colleagues that have similar opinions, but we&rsquo;re super late; ThoughtWorks realized this in 2018(!!!):</p>
 <figure class=mx-5>
 <blockquote class=blockquote>
 <p><em>... organizations who've adopted a layered microservices architecture, which in some ways is a contradiction in terms... have fallen back to arranging services primarily according to a technical role [like those in API-Led]... delivering any valuable business change requires slow and expensive coordination between multiple teams.</em></p>
@@ -132,7 +132,7 @@ ThoughtWorks <cite title="Technology Radar">Technology Radar 2018</cite>
 <div class=col-md-2></div>
 </div>
 <br>
-<p>The problem with API-Led is that the <strong>Problem</strong> is inaccurate. The dichotomy between slow and stable, and fast and less-critical no longer holds. Gregor Hohpe (you know, the guy that wrote the book on Enterprise Integration) expressed it best:</p>
+<p>The problem with API-Led is that the <strong>Problem</strong> is inaccurate. The dichotomy between slow and stable, and fast and less-critical no longer holds. Gregor Hohpe (you know, the guy that wrote the book on Enterprise Integration) expressed this way:</p>
 <figure class=mx-5>
 <blockquote class=blockquote>
 <p><em>... the separation between systems of engagement and systems of record is artificial and doesn’t line up well with the overall rate of change from a business or end-user perspective ... hardly any digital business follows such a setup. Digital companies only know one speed: fast.</em></p>
@@ -148,15 +148,15 @@ Gregor Hohpe in <cite title="The Architect Elevator">The Architect Elevator</cit
 <div class=col-md-2></div>
 </div>
 <br>
-<p>Let&rsquo;s now introduce a better approach: what we want to do is find the team-bound, <em>vertical</em> fracture planes of the solution space. There are a few different ways to find the appropriate fracture planes for a given organization, the main one being the business domain bounded contexts; or what Sam Newman calls &ldquo;Just Enough Domain Driven Design&rdquo;.</p>
+<p>Let&rsquo;s now introduce a better approach: we want to find the team-bound, <em>vertical</em> fracture planes of the solution space. There are a few different ways to find the appropriate fracture planes for a given organization, the main one being the business domain bounded contexts, or what Sam Newman calls &ldquo;Just Enough Domain Driven Design.&rdquo;</p>
 <p>A superficial attempt at our bank example may result in something like this:</p>
 <br>
 <img class="mb-3 m-auto rounded img-fluid" alt="api led alternative" style=display:block src=/images/api-led-problem-p2-alternative.png>
 <br>
-<p>There&rsquo;s a lot to unpack in this depiction, but there&rsquo;s a couple specific things I want to call out:</p>
+<p>There&rsquo;s a lot to unpack in this depiction, but there are a couple of specific things I want to call out:</p>
 <ul>
 <li>
-<p>We&rsquo;re moving away from an outdated understanding of IT where the Business throws requirements over the wall, and where an isolated &ldquo;Central IT&rdquo; only manages systems of record, towards a post-industrial understanding that IT is the main enabler in digital organizations and must co-create value. Read <em>Designing Delivery</em> by Jeff Sussna.</p>
+<p>We&rsquo;re moving away from an outdated understanding of IT where things are thrown over the wall in stages like an assembly line, where an isolated &ldquo;Central IT&rdquo; only manages systems of record, towards a post-industrial understanding that IT is the leading enabler in digital organizations and must drive and co-create value. Read <em>Designing Delivery</em> by Jeff Sussna.</p>
 </li>
 <li>
 <p>Instead of changes spanning multiple teams, requiring coordination and lacking visibility in delivery, the vertical fracture planes help us assign stream-aligned teams:</p>
@@ -181,12 +181,13 @@ Matthew Skelton and Manuel Pais in <cite title="Team Topologies">Team Topologies
 Matthew Skelton and Manuel Pais in <cite title="Team Topologies">Team Topologies</cite>
 </figcaption>
 </figure>
-<p>For an in-depth understanding around this approach I&rsquo;d recommend <em>Team Topologies</em> by Matthew Skelton and Manuel Pais, and How to Model Microservices from <em>Building Microservices 2nd Edition</em> by Sam Newman.</p>
+<p>For an in-depth understanding of this approach, I&rsquo;d recommend <em>Team Topologies</em> by Matthew Skelton and Manuel Pais, and How to Model Microservices from <em>Building Microservices 2nd Edition</em> by Sam Newman.</p>
 <hr>
 <p>Further reading:</p>
 <ul>
 <li><em>Designing Delivery</em> by Jeff Sussna</li>
 <li><em>Accelerate: Building and Scaling High Performing Technology Organizations</em> by Jez Humble et al.</li>
+<li><a href=https://martinfowler.com/articles/cant-buy-integration.html><em>You Can&rsquo;t Buy Integration</em></a> by Brandon Byars</li>
 </ul>
 </div>
 <div class=col-md-3>
