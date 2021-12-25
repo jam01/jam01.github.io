@@ -52,6 +52,6 @@ If every time we discuss API-Led's applicability we have to level-set what it me
 
 API-Led doesn't sound bad! Narrator: it was.
 
-In Part 2, we'll dive into the technical part. Stay tuned!
+Here's [The Problem with API-Led Part 2](https://josemontoya.io/blog/the-problem-with-api-led-part-2/)!
 
-P.S.: I am indeed related to Iñigo Montoya.
+P.S.: Yes, I am related to Iñigo Montoya.
